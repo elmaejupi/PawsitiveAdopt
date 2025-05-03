@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bbbb"
+            android:onClick="main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="0dp"
+            android:text="Potential Pet Parent"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            android:hint="Name and Surname"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="0dp"
+            android:text="Breed of pet you wish to adopt"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="3dp"
+            android:hint="PetBreed"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="0dp"
+            android:text="Name of pet you wish to adopt"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="3dp"
+            android:hint="PetName"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:text="Email address"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="Email"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:text="Phone number"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="areacode/**/***/***"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:text="Address"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="State"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="City"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="Street"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:hint="Zip code"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textColor="#332D2C"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#CFCFCF"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply now"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#FF5722"
+        android:onClick="applied"/>
+</LinearLayout>
