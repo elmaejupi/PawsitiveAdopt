@@ -32,3 +32,20 @@
 1. *Clone the repository*  
    ```bash
    git clone https://github.com/your-username/PawsitiveAdopt.git
+
+## Open the project in Android Studio
+
+Build & Run
+Connect your device or start an emulator, then click ▶ to run.
+
+## Authors
+
+- [@elmaejupi](https://github.com/elmaejupi)
+- [@xhesikamula](https://github.com/xhesikamula) 
+
+## GitHub Repository
+
+🔗 [PawsitiveAdopt GitHub Repo](https://github.com/elmaejupi/PawsitiveAdopt)
+
+🕒 *Note:* This project was initially created 2 years ago and may be in active development or used as a reference project.
+
