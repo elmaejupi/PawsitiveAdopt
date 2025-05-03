@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4D68B">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/img_4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#023003"
+        android:text="Breed: House Sparrow"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#023003"
+        android:text="Name: Coco"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:textColor="#023003"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Age: 2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#023003"
+        android:textSize="20sp"
+        android:text="Gender: M" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#023003"
+        android:ems="10"
+        android:gravity="start|top"
+        android:textSize="15sp"
+        android:inputType="textMultiLine"
+       android:text="The house sparrow is typically about 16 cm (6.3 in) long, ranging from 14 to 18 cm (5.5 to 7.1 in). A plain buffy-brown overall with dingy gray-brown underparts. His back is noticeably striped with buff, black, and brown."
+/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adopt Me"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="adoptcontact"
+        android:background="#BC750D"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+
+        android:text="Contact us: petadoption@yahoo.com"
+        android:textColor="#023003" />
+</LinearLayout>
